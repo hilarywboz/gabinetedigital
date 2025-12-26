@@ -27,7 +27,7 @@ const DecisionCard: React.FC<DecisionCardProps> = ({ decision, onDelete }) => {
         {decision.content}
       </div>
       <div className="flex flex-wrap gap-2">
-        {(decision.tags || ['General']).map((tag, idx) => (
+        {(decision.tags || ['Enviado']).map((tag: string, idx: number) => (
           <span key={idx} className="bg-slate-100 text-slate-600 px-2 py-1 rounded text-xs font-medium uppercase tracking-wider">
             {tag}
           </span>
