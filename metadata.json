@@ -1,0 +1,6 @@
+
+{
+  "name": "Assistente Judicial AI",
+  "description": "Um assistente inteligente que aprende com suas decisões passadas para sugerir sentenças e redigir rascunhos de acórdãos.",
+  "requestFramePermissions": []
+}
